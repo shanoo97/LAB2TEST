@@ -25,6 +25,8 @@
 *.la
 *.a
 *.lib
+*.mk
+*.txt
 
 # Executables
 *.exe

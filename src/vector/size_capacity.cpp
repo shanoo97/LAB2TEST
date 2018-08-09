@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+    
     vector<int> vec;
     cout << "vec: size: " << vec.size() 
          << " capacity: " << vec.capacity() << endl;
