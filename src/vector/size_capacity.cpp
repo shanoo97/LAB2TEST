@@ -21,3 +21,8 @@ int main()
 
     return 0;
 }
+
+// the size is the actualy amount of elements 
+// the capacity is the amount of elements the vector can hold 
+// the vectors capacity doubles each time it has to increase
+
