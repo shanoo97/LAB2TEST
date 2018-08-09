@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Project Name="elen3009-lab2" Version="10.0.0" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
   <VirtualDirectory Name="src">
     <VirtualDirectory Name="vector">
-      <File Name="src/vector/size_capacity.cpp"/>
+      <File Name="src/vector/size_capacity.cpp" ExcludeProjConfig="Debug;"/>
     </VirtualDirectory>
     <VirtualDirectory Name="text-query-system">
       <File Name="src/text-query-system/Word.h" ExcludeProjConfig="Debug;"/>
@@ -16,7 +21,7 @@
       <File Name="src/text-query-system/FileReader.cpp" ExcludeProjConfig="Debug;"/>
     </VirtualDirectory>
     <VirtualDirectory Name="factorial">
-      <File Name="src/factorial/factorial.cpp" ExcludeProjConfig="Debug;"/>
+      <File Name="src/factorial/factorial.cpp" ExcludeProjConfig=""/>
     </VirtualDirectory>
   </VirtualDirectory>
   <Description/>
@@ -33,7 +38,7 @@
     </GlobalSettings>
     <Configuration Name="Debug" CompilerType="MinGW ( mingw64 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
       <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
-        <IncludePath Value="."/>
+        <IncludePath Value="E:\doctest-1.2.9\doctest"/>
       </Compiler>
       <Linker Options="" Required="yes"/>
       <ResourceCompiler Options="" Required="no"/>
